@@ -3,7 +3,7 @@ import React from "react";
 function Notification() {
   return (
     <div>
-      <p>notification</p>
+      <p className="card-title">notification</p>
     </div>
   );
 }
