@@ -15,6 +15,8 @@ class CreateProject extends Component {
   };
   handleClick = (event) => {
     event.preventDefault();
+    this.props.createProject(this.state);
+    this.props.history.push('/');
     console.log("state : ", this.state);
   };
   render() {
