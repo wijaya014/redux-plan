@@ -22,12 +22,13 @@ const ProjectDetail = (props) => {
         </div>
       </div>
     );
+  } else {
+    return (
+      <din className="container center">
+        <p>Loading content ...</p>
+      </din>
+    );
   }
-  return (
-    <din className="container center">
-      <p>Loading content ...</p>
-    </din>
-  );
 };
 const mapStateToProps = (state, ownProps) => {
   const id = ownProps.match.params.id;
