@@ -74,4 +74,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(mapDispatchToProps, mapStateToProps)(SignedUp);
+export default connect(mapStateToProps, mapDispatchToProps)(SignedUp);
