@@ -1,4 +1,4 @@
-const signIn = (credential) => {
+export const signIn = (credential) => {
   return (dispatch, getState, { getFirebase }) => {
     const firebase = getFirebase();
     firebase
